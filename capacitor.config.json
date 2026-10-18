@@ -1,0 +1,9 @@
+{
+  "appId": "com.zakir.smart",
+  "appName": "ذاكر بذكاء",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

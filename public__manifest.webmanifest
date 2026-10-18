@@ -1,0 +1,71 @@
+{
+  "id": "/",
+  "name": "ذاكر بذكاء - المساعد التعليمي الذكي",
+  "short_name": "ذاكر بذكاء",
+  "description": "منصة تعليمية متكاملة للمذاكرة الذكية وقراءة PDF والتلخيص والاختبارات بالذكاء الاصطناعي",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "المساعد الذكي",
+      "short_name": "المساعد",
+      "description": "طرح الأسئلة ومناقشة المناهج مع الذكاء الاصطناعي",
+      "url": "/?tab=assistant",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "تلخيص المواد",
+      "short_name": "التلخيص",
+      "description": "تلخيص الدروس والمحاضرات",
+      "url": "/?tab=summarizer",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "بنك الاختبارات",
+      "short_name": "اختبارات",
+      "description": "إنشاء اختبارات تفاعلية",
+      "url": "/?tab=quizzes",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "بطاقات الاستذكار",
+      "short_name": "البطاقات",
+      "description": "مراجعة وتكرار متباعد للبطاقات",
+      "url": "/?tab=flashcards",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ذاكر بذكاء - المساعد التعليمي الذكي",
+  "description": "منصة تعليمية متكاملة للمذاكرة الذكية، تلخيص المواد الدراسية، قراءة ملفات PDF، إنشاء الاختبارات والبطاقات التعليمية، والخرائط الذهنية باللغة العربية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
